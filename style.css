@@ -223,9 +223,9 @@ nav ul a:hover::after{
     margin-top: 10px; 
 }
 
-.unidade-uv .container ul{
-    margin-top: 15px;
-
+.unidade-uv .container ul li{
+    margin-top: 10px;
+    
 }
 
 .unidade-uv .unidade-uv-text{
