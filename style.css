@@ -46,6 +46,92 @@ p {
     padding: 0 5%;
 }
 
+.slider1{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 3s;
+}
+
+.slide img{
+    width: 800px;
+}
+
+
+
+#radio1:checked ~ .firts{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .firts{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .firts{
+    margin-left: -52.6%;
+}
+
+#radio4:checked ~ .firts{
+    margin-left: -76.5%;
+}
+
+.navigation-auto div{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #d3e6df;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #d3e6df;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #d3e6df;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #d3e6df;
+}
+
+
+
 .btn {
     background-color: var(--btn-bg-color);
     color: white;
@@ -143,9 +229,7 @@ nav ul a:hover::after {
     transition: transform 0.3s ease;
 }
 
-.parada-rpbc .parada-rpbc-img img:hover {
-    transform: scale(1.05);
-}
+
 
 .escopos h3, .escopos p {
     text-align: center;
