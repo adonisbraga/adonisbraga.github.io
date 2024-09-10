@@ -76,8 +76,6 @@ p {
     width: 800px;
 }
 
-
-
 #radio1:checked ~ .firts{
     margin-left: 0;
 }
@@ -229,8 +227,6 @@ nav ul a:hover::after {
     transition: transform 0.3s ease;
 }
 
-
-
 .escopos h3, .escopos p {
     text-align: center;
     color: var(--text-color);
@@ -290,14 +286,35 @@ nav ul a:hover::after {
     color: var(--text-color);
 }
 
+.unidade-uv .unidade-uv-img img {
+    width: 60%;
+    border-radius: 10px;
+}
+
 .unidade-uv .unidade-uv-img {
-    width: 70%;
+    width: 30%;
+}
+
+.unidade-uv .unidade-uv-img {
+    width: 30rem;
+    height: 23rem;
+    position: relative;
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
 }
 
 .unidade-uv .unidade-uv-img img {
-    width: 70%;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+    
 }
+
 
 /* Para tablets e dispositivos de tamanho médio (768px e abaixo) */
 
