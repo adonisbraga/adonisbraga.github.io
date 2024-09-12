@@ -316,73 +316,16 @@ nav ul a:hover::after {
 }
 
 
-/* Para tablets e dispositivos de tamanho médio (768px e abaixo) */
-
-@media (max-width: 768px) {
-    .container {
-        padding: 0 2%;
-    }
-
-    .banner .banner-text {
-        margin: 80px 0;
-        padding: 0 20px;
-    }
-
-    .banner .banner-text h1 {
-        font-size: 48px;
-    }
-
-    .banner .banner-text p {
-        font-size: 16px;
-    }
-
-    .parada-rpbc .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .parada-rpbc .parada-rpbc-text,
-    .parada-rpbc .parada-rpbc-img {
-        width: 100%;
-    }
-
-    .parada-rpbc .parada-rpbc-img img {
-        width: 100%;
-    }
+.dropdown-menu{
+    position: absolute;
+    display: none;
 }
 
+.dropdown-menu a{
+    display: block;
+    color: white;
+}
 
-/* Para dispositivos móveis (480px e abaixo) */
-
-@media (max-width: 480px) {
-    .banner .banner-text h1 {
-        font-size: 36px;
-    }
-
-    .banner .banner-text p {
-        font-size: 14px;
-    }
-
-    .btn {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-
-    .parada-rpbc .parada-rpbc-text {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .parada-rpbc .parada-rpbc-img {
-        width: 100%;
-    }
-
-    .unidade-uv .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .unidade-uv .container ul li {
-        width: 100%;
-    }
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
