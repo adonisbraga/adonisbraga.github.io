@@ -85,11 +85,11 @@ p {
 }
 
 #radio3:checked ~ .firts{
-    margin-left: -52.6%;
+    margin-left: -52.3%;
 }
 
 #radio4:checked ~ .firts{
-    margin-left: -76.5%;
+    margin-left: -77.3%;
 }
 
 .navigation-auto div{
